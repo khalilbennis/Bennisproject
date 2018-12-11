@@ -22,6 +22,10 @@ public class AuthTest {
 				mv2.addObject("email",em);
 				mv2.addObject("password",pass);
 				;
+				;
+				;
+				;
+				
 				return mv2;
 				
 			}
