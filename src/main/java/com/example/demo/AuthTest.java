@@ -23,8 +23,6 @@ public class AuthTest {
 				mv2.addObject("password",pass);
 				;
 				;
-				;
-				;
 				
 				return mv2;
 				
