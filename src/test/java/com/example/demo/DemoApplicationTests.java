@@ -22,8 +22,8 @@ public class DemoApplicationTests {
 	@Test
 	public void lol() throws Exception {
 		mockMvc.perform(post("/login")
-				.param("email", "example@example.com")
-	            .param("password", "example"))
+				.param("email", "houda@houda.com")
+	            .param("password", "houda"))
 				.andExpect(view().name("login2"));
 	}
 
