@@ -21,8 +21,8 @@ public class AuthTest {
 			if(em.equals("houda@houda.com") && pass.equals("houda")) {
 				mv2.addObject("email",em);
 				mv2.addObject("password",pass);
-				;
-				;
+				
+				
 				
 				return mv2;
 				
