@@ -14,7 +14,7 @@ pipeline{
       }
       stage ('test') {
         steps {
-          bat 'mvn test'
+          bat 'mvn galtling :test'
         }
       }
       stage ('deploy') {
