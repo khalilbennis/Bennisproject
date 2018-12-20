@@ -8,18 +8,18 @@ pipeline{
   stages {
       stage ('Build') {
         steps {
-          echo 'Building..'
+          bat 'mvn compiler:compile'
         }
        
       }
       stage ('test') {
         steps {
-          echo 'Testing ..'
+          bat 'mvn test'
         }
       }
       stage ('deploy') {
         steps {
-          echo 'deployin ..'
+           bat 'mvn deploy'
         }
       }
       
