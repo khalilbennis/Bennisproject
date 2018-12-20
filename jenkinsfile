@@ -19,7 +19,7 @@ pipeline{
       }
       stage ('deploy') {
         steps {
-           bat 'mvn deploy'
+           echo 'molo'
         }
       }
       
